@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C318176615F13E9F003FE6A2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C318176515F13E9F003FE6A2 /* Default.png */; };
 		C3737C0415F12BCD0068816A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3737C0315F12BCD0068816A /* UIKit.framework */; };
 		C3737C0615F12BCD0068816A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3737C0515F12BCD0068816A /* Foundation.framework */; };
 		C3737C0815F12BCD0068816A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3737C0715F12BCD0068816A /* CoreGraphics.framework */; };
@@ -14,13 +15,15 @@
 		C3737C1015F12BCD0068816A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3737C0F15F12BCD0068816A /* main.m */; };
 		C3737C1415F12BCD0068816A /* AMTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3737C1315F12BCD0068816A /* AMTAppDelegate.m */; };
 		C3737C1715F12BCD0068816A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3737C1515F12BCD0068816A /* MainStoryboard_iPhone.storyboard */; };
-		C3737C1A15F12BCD0068816A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3737C1815F12BCD0068816A /* MainStoryboard_iPad.storyboard */; };
 		C3737C1D15F12BCD0068816A /* AMTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3737C1C15F12BCD0068816A /* AMTViewController.m */; };
 		C3737C2515F12BCD0068816A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3737C2415F12BCD0068816A /* SenTestingKit.framework */; };
 		C3737C2615F12BCD0068816A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3737C0315F12BCD0068816A /* UIKit.framework */; };
 		C3737C2715F12BCD0068816A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3737C0515F12BCD0068816A /* Foundation.framework */; };
 		C3737C2F15F12BCD0068816A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3737C2D15F12BCD0068816A /* InfoPlist.strings */; };
 		C3737C3215F12BCD0068816A /* AMTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3737C3115F12BCD0068816A /* AMTTests.m */; };
+		C3737C4215F12D760068816A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C3737C4115F12D760068816A /* logo.png */; };
+		C3AAA76D15F134780048095E /* NSDictionary+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AAA76C15F134780048095E /* NSDictionary+URLEncoding.m */; };
+		C3AAA76E15F134780048095E /* NSDictionary+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AAA76C15F134780048095E /* NSDictionary+URLEncoding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C318176515F13E9F003FE6A2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C3737BFF15F12BCD0068816A /* AMT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3737C0315F12BCD0068816A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C3737C0515F12BCD0068816A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,7 +49,6 @@
 		C3737C1215F12BCD0068816A /* AMTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMTAppDelegate.h; sourceTree = "<group>"; };
 		C3737C1315F12BCD0068816A /* AMTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMTAppDelegate.m; sourceTree = "<group>"; };
 		C3737C1615F12BCD0068816A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		C3737C1915F12BCD0068816A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C3737C1B15F12BCD0068816A /* AMTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMTViewController.h; sourceTree = "<group>"; };
 		C3737C1C15F12BCD0068816A /* AMTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMTViewController.m; sourceTree = "<group>"; };
 		C3737C2315F12BCD0068816A /* AMTTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMTTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +57,9 @@
 		C3737C2E15F12BCD0068816A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3737C3015F12BCD0068816A /* AMTTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMTTests.h; sourceTree = "<group>"; };
 		C3737C3115F12BCD0068816A /* AMTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMTTests.m; sourceTree = "<group>"; };
+		C3737C4115F12D760068816A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C3AAA76B15F134780048095E /* NSDictionary+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URLEncoding.h"; sourceTree = "<group>"; };
+		C3AAA76C15F134780048095E /* NSDictionary+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLEncoding.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 		C3737BF415F12BCC0068816A = {
 			isa = PBXGroup;
 			children = (
+				C318176515F13E9F003FE6A2 /* Default.png */,
 				C3737C0915F12BCD0068816A /* AMT */,
 				C3737C2A15F12BCD0068816A /* AMTTests */,
 				C3737C0215F12BCD0068816A /* Frameworks */,
@@ -113,12 +120,14 @@
 		C3737C0915F12BCD0068816A /* AMT */ = {
 			isa = PBXGroup;
 			children = (
+				C3737C4015F12D760068816A /* images */,
 				C3737C1215F12BCD0068816A /* AMTAppDelegate.h */,
 				C3737C1315F12BCD0068816A /* AMTAppDelegate.m */,
 				C3737C1515F12BCD0068816A /* MainStoryboard_iPhone.storyboard */,
-				C3737C1815F12BCD0068816A /* MainStoryboard_iPad.storyboard */,
 				C3737C1B15F12BCD0068816A /* AMTViewController.h */,
 				C3737C1C15F12BCD0068816A /* AMTViewController.m */,
+				C3AAA76B15F134780048095E /* NSDictionary+URLEncoding.h */,
+				C3AAA76C15F134780048095E /* NSDictionary+URLEncoding.m */,
 				C3737C0A15F12BCD0068816A /* Supporting Files */,
 			);
 			path = AMT;
@@ -152,6 +161,14 @@
 				C3737C2D15F12BCD0068816A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3737C4015F12D760068816A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C3737C4115F12D760068816A /* logo.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +245,8 @@
 			files = (
 				C3737C0E15F12BCD0068816A /* InfoPlist.strings in Resources */,
 				C3737C1715F12BCD0068816A /* MainStoryboard_iPhone.storyboard in Resources */,
-				C3737C1A15F12BCD0068816A /* MainStoryboard_iPad.storyboard in Resources */,
+				C3737C4215F12D760068816A /* logo.png in Resources */,
+				C318176615F13E9F003FE6A2 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +284,7 @@
 				C3737C1015F12BCD0068816A /* main.m in Sources */,
 				C3737C1415F12BCD0068816A /* AMTAppDelegate.m in Sources */,
 				C3737C1D15F12BCD0068816A /* AMTViewController.m in Sources */,
+				C3AAA76D15F134780048095E /* NSDictionary+URLEncoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3737C3215F12BCD0068816A /* AMTTests.m in Sources */,
+				C3AAA76E15F134780048095E /* NSDictionary+URLEncoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +322,6 @@
 				C3737C1615F12BCD0068816A /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		C3737C1815F12BCD0068816A /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3737C1915F12BCD0068816A /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		C3737C2D15F12BCD0068816A /* InfoPlist.strings */ = {
@@ -449,6 +461,7 @@
 				C3737C3715F12BCD0068816A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3737C3815F12BCD0068816A /* Build configuration list for PBXNativeTarget "AMTTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +470,7 @@
 				C3737C3A15F12BCD0068816A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSDictionary+URLEncoding.h"
+
+typedef void (^basicCallback)(void);
 
 @interface AMTViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UITextField *usernameField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordField;
+@property (weak, nonatomic) IBOutlet UITextField *pinField;
+@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
+@property BOOL isAuthenticated;
+
+- (IBAction)unlock:(id)sender;
 
 @end
